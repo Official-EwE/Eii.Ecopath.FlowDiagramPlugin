@@ -119,10 +119,10 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="WeifenLuo.WinFormsUI.Docking">
-      <HintPath>..\..\Includes\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+      <HintPath>..\Includes\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
     </Reference>
     <Reference Include="ZedGraph">
-      <HintPath>..\..\Includes\ZedGraph.dll</HintPath>
+      <HintPath>..\Includes\ZedGraph.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -254,8 +254,8 @@
     <PackageIcon>EII_plain_128x128.png</PackageIcon>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\README.md" Pack="True" PackagePath="\" />
-    <None Include="..\..\EII_plain_128x128.png" Pack="True" PackagePath="\" />
+    <None Include="..\README.md" Pack="True" PackagePath="\" />
+    <None Include="..\EII_plain_128x128.png" Pack="True" PackagePath="\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Eii.Ecopath.EwECore" Version="6.7.*" />

@@ -12,5 +12,5 @@
     <File Path=".github/workflows/build-check.yml" />
     <File Path=".github/workflows/release-nuget.yml" />
   </Folder>
-  <Project Path="src/FlowDiagramPlugin/EwEFlowDiagramPlugin.vbproj" />
+  <Project Path="FlowDiagramPlugin/EwEFlowDiagramPlugin.vbproj" />
 </Solution>
